@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video</title>
 </head>
 <body>
+    <h2>Video com autoplay para banner ou plano de fundo</h2>
+    <video src="img/foodVideo.mp4" width="100%" playsinline autoplay muted loop></video>
+
+    <h2>Video local com controls</h2>
+    <video controls width="500">
+        <!--A ordem tem influência, ele vai tentar funcionar por linha, 
+            não funcionou exibe a mensagem da ultima linha-->
+        <source src="img/foodVideo.mp4" type="video/mp4">
+        <source src="img/foodVideo.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de video</p>
+    </video>
     
+    <h2>Video do YouTube</h2>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/LW0bhKitRBk?si=AAxGRavMqA6Jiuhl" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>

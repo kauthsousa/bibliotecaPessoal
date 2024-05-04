@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu01</title>
+    <style>
+
+        /*
+        # - id
+        . - class
+        : - pseudo-class
+        :: - pseudo-element
+        > - children
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::after {
+            content:'depois'
+        }
+
+        a::before {
+            content:'antes'
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#" target="_blank">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+</body>
+</html>
