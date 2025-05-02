@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="k_s_s">
+    <meta name="description" content="Template inicial do HTML">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Calculadora de Compras</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./img/logo.png" alt="" width="50">
+        <h1>
+            Cabeçalho do Site
+        </h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <section id="secao1">
+            <header>
+                <h2>Produtos</h2>
+            </header>
+            <div id="produtos">
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom01.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 01</h5>
+                        <p class="card-text">R$<span>40,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 02</h5>
+                        <p class="card-text">R$<span>10,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom03.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 03</h5>
+                        <p class="card-text">R$<span>90,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom04.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 04</h5>
+                        <p class="card-text">R$<span>45,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 05</h5>
+                        <p class="card-text">R$<span>30,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="./img/batom06.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Batom 06</h5>
+                        <p class="card-text">R$<span>70,00</span></p>
+                        <button class="btn btn-primary" type="button" id="botao">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside id="secao2">
+            <h3>Calculadora</h3>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="0" readonly>
+            </div>
+            <ul id="lista" class="list-group"></ul>
+        </aside>
+    </div>
+    <footer class="rodape">
+        Rodapé da página
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

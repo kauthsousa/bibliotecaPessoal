@@ -1,0 +1,22 @@
+<!-- JavaScript é uma linguagem de programação, o que 
+permite enriquecer consideravelmente um website ou 
+aplicação web. Para isso, sua integração deve ser clara
+e bem definida. Considerando a necessidade de exibir
+conteúdo com base na interação do usuário, podemos
+utilizar plenamente funções integradas aos eventos
+HTML. Nesse contexto, crie uma página HTML que
+apresentará um campo para inserção de um nome e
+senha de usuário. Compare o nome com a senha e, se
+ambos forem diferentes, apresente uma mensagem em
+um elemento textual à sua escolha, no corpo de uma
+página HTML. -->
+
+<h1>Basic 01</h1>
+
+<form name="validalogin" onsubmit="event.preventDefault(); validaLogin();">
+    <input type="text" placeholder="nome" name="usuario">
+    <input type="password" placeholder="senha" name="senha">
+    <button type="submit">Login</button>
+</form>
+
+<script src="./basic1.js"></script>
