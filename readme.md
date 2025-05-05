@@ -1,14 +1,14 @@
-### 📦 Portólio de estudos pessoais
+## 📦 Portólio de estudos pessoais
 
 Biblioteca pessoal para testes e armazenamento de códigos que poderão me servir no futuro :)
 
 ---
 
-#### 🛠️ Projetos com ReactJS
+### 🛠️ Projetos com ReactJS
 
 * [📁 Em construção](./#/)
 
-#### 🛠️ Projetos com HTML/CSS/JS puro
+### 🛠️ Projetos com HTML/CSS/JS puro
 
 * [📁 Inserindo vídeos no código](./video/)
 * [📁 Responsividade de texto e imagem](./responsividade/)
