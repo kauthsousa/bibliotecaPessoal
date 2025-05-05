@@ -1,0 +1,7 @@
+$primary: blue; //$ para chamar variáveis
+
+header{
+    display: flex;
+    background: $primary; //aqui chama a variável definida la em cima
+    color: white;
+}
