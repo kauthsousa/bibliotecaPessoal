@@ -6,7 +6,7 @@ Biblioteca pessoal para testes e armazenamento de códigos que poderão me servi
 
 ## 🛠️ Projetos Back-end com NodeJS
 
-* [📁 Em construção](./#/)
+* [📁 Hello World Servidor HTTP](./servidorNode/)
 
 ## 🛠️ Projetos com HTML/CSS/JS puro
 
