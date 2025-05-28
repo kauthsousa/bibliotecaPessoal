@@ -4,8 +4,8 @@ Hello World iniciando servidor utilizando express, servidor básico
 
 ## 🛠️ Comandos de configuração inicial
 
-### Criar o projeto express:
-`yarn add express --save`
+### Instalação:
+`yarn add node-red`
 
 ### Adicionando o body-parser:
 `yarn add body-parser --save`
